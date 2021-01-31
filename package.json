@@ -1,0 +1,52 @@
+{
+  "name": "wordcloud",
+  "version": "0.1.1",
+  "description": "A simple wordcloud demo with react",
+  "private": true,
+  "dependencies": {
+    "echarts": "^5.0.1",
+    "echarts-for-react": "^2.0.16",
+    "echarts-wordcloud": "^2.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "scriptjs": "^2.5.9",
+    "source-map-explorer": "^2.5.2",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "set HTTPS=true&&react-scripts start",
+    "build": "react-scripts build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Matthrews/wordcloud.git"
+  },
+  "keywords": [
+    "todo",
+    "node",
+    "npm"
+  ],
+  "author": "rfzhu",
+  "bugs": {
+    "url": "https://github.com/Matthrews/wordcloud/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Matthrews/wordcloud",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
