@@ -24,9 +24,9 @@
     "url": "https://github.com/Matthrews/wordcloud.git"
   },
   "keywords": [
-    "todo",
-    "node",
-    "npm"
+    "echarts",
+    "echarts-wordcloud",
+    "react"
   ],
   "author": "rfzhu",
   "bugs": {
